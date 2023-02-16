@@ -43,7 +43,7 @@ function hero() {
                     <Carousel.Caption>
                         <h3>{hero.title}</h3>
                         <p>{hero.description}</p>
-                        <a className="btn btn-primary" href={hero.link}>Learn More <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                        <a className="btn btn-primary" href={hero.link}>Learn More <i className="fa fa-chevron-right" aria-hidden="true"></i></a>
                     </Carousel.Caption>
                 </Carousel.Item>
                         )

@@ -7,6 +7,11 @@ import About from './components/About';
 import Services from './components/Services';
 import Works from './components/Works';
 import Teams from './components/Teams';
+import Testimonials from './components/Testimonials';
+import Pricing from './components/Pricing';
+import Blog from './components/Blog';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -21,7 +26,14 @@ function App() {
         <Services />
         <Works />
         <Teams />
+        <Testimonials />
+        <Pricing />
+        <Blog />
+        <Contact />
       </main>
+      <footer id="footer">
+        <Footer />
+      </footer>
     </div>
   );
 }
